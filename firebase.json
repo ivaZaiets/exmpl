@@ -1,6 +1,7 @@
 {
     "hosting": [
       {
+        "source": "./build/server",
         "public": "build",
         "site": "worksmi",
         "ignore": [
