@@ -1,9 +1,15 @@
 {
-  "hosting": [
-    {
-      "source": "dist/client",
-      "site": "worksmi",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "hosting": {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-central1",
+        "minInstances": 1,
+        "maxInstances": 10
+      }
     }
-  ]
-}
+  }
