@@ -36,3 +36,4 @@ jobs:
         env:
           GCP_SA_KEY: ${{ secrets.GCLOUD_AUTH_DEV }}
           PROJECT_ID: worksmi
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
