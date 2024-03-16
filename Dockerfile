@@ -29,6 +29,8 @@ WORKDIR /app
 RUN ls -la
 # Copy the built files from the previous stage
 COPY --from=build /app/dist /app/dist
+# ////////////////////////////////
+RUN npm install
 # Expose the port your server listens on
 EXPOSE 5173
 # Command to run your SSR React app
