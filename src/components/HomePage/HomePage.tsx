@@ -7,7 +7,7 @@ const HomePage = () => {
           width: "50px",
           height: "50px",
           border: "none",
-          borderRadius: "50%",
+          borderRadius: "50px",
           objectFit: "cover",
         }}
         src="/01.png"
