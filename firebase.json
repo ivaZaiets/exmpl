@@ -1,16 +1,9 @@
 {
   "hosting": [
     {
-      "source": "./dist",
+      "source": "./",
       "site": "worksmi",
-      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "redirects": [],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "./dist"
-        }
-      ]
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
   ]
 }
