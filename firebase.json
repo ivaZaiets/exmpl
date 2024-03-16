@@ -1,7 +1,7 @@
 {
     "hosting": [
       {
-        "source": "dist/server",
+        "source": "/dist/server",
         "site": "worksmi",
         "ignore": [
           "firebase.json",
