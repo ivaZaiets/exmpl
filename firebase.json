@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "public": "dist/client",
+      "source": "dist/client",
       "site": "worksmi",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
     }
