@@ -1,28 +1,16 @@
 {
-    "hosting": [
-      {
-        "public": "dist",
-        "site": "worksmi",
-        "ignore": [
-          "firebase.json",
-          "**/.*",
-          "**/node_modules/**"
-        ],
-        "redirects": [],
-        "rewrites": [
-          {
-            "source": "**",
-            "destination": "/index.html"
-          }
-        ]
-      }
-    ]
-  }
-
-
- 
-  
-  
-  
-  
-  
+  "hosting": [
+    {
+      "public": "dist",
+      "site": "worksmi",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "redirects": [],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "./dist/server/entry-server.js"
+        }
+      ]
+    }
+  ]
+}
