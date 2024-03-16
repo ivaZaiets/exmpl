@@ -26,6 +26,9 @@ jobs:
       - name: npm build
         run: npm run build
 
+      - name: Folders
+        run: ls
+
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@v12.9.0
         with:
